@@ -37,24 +37,23 @@
 
 ### application.properties
 spring.application.name=Spring_tech
-#### Data source :
-- **spring.datasource.url=jdbc:h2:file:C:/Users/Lenovo/test**
-- **spring.datasource.driver-class-name=org.h2.Driver**
-- **spring.datasource.username=sa**
-- **spring.datasource.password=**
-- **spring.jpa.generate-ddl=true**
-- **server.port=9090**
-#### Jpa/Hibernate :
-- **spring.jpa.hibernate.ddl-auto=none**
-- **spring.h2.console.enabled=true**
-- **spring.h2.console.path=/h2-console**
+#### Data source:
+##### spring.datasource.url=jdbc:h2:file:C:/Users/Lenovo/test
+##### spring.datasource.driver-class-name=org.h2.Driver
+##### spring.datasource.username=sa
+##### spring.datasource.password=
+##### spring.jpa.generate-ddl=true
+##### server.port=9090
+#### Jpa/Hibernate:
+##### spring.jpa.hibernate.ddl-auto=none
+##### spring.h2.console.enabled=true #####spring.h2.console.path=/h2-console
 #### spring.jpa.show-sql=true
--**spring.jpa.open-in-view=true**
+##### spring.jpa.open-in-view=true
 #### Hibernate Properties
 #### Hibernate ddl auto (create, create-drop, validate, update)
--**spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.H2Dialect**
+##### spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.H2Dialect
 #### Enable H2 Console-http://localhost:9090/h2-console
--**logging.level.org.springframework=DEBUG**
+##### logging.level.org.springframework=DEBUG
 
 
 #### REST API Endpoints of Student:
