@@ -262,10 +262,10 @@ curl --location --request PUT 'http://localhost:9090/api/students/1/subjects/2'
 Java 21: Install it from Oracle or AdoptOpenJDK.
 #### Clone the Project
 Open your terminal and run:
-git clone '<repository-url>'Replace <repository-url> with the URL of the GitHub repository.
+git clone 'repository-url'Replace <repository-url> with the URL of the GitHub repository.
 #### Navigate to the Project Directory
 ##### Change into the directory of the cloned repository:
-cd <repository-directory>'Replace <repository-directory> with the name of the directory where the project was cloned.
+cd 'repository-directory'Replace <repository-directory> with the name of the directory where the project was cloned.
 #### Import the Project into Your IDE
 #### Run the Application
 -**Right-click on SpringTechApplication.java and select Run As > Spring Boot App.**
