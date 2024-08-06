@@ -257,6 +257,25 @@ curl --location --request PUT 'http://localhost:9090/api/students/1/subjects/2'
 }
 ** Response: Updated Student object with assigned subject
 
+#### To running your Spring Boot project:
+#### Install Prerequisites
+Java 21: Install it from Oracle or AdoptOpenJDK.
+#### Clone the Project
+Open your terminal and run:
+git clone <repository-url>
+#### Navigate to the Project Directory
+##### Change into the directory of the cloned repository:
+cd <repository-directory>
+#### Import the Project into Your IDE
+#### Run the Application
+-**Right-click on SpringTechApplication.java and select Run As > Spring Boot App.**
+#### Access the Application
+Open your web browser and go to:
+-**H2 Console: http://localhost:9090/h2-console**
+-**API Endpoints:http://localhost:9090/api/students etc**
+#### Stop the Application
+Click the red stop button in the Console view.
+
 
 
 
